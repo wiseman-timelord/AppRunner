@@ -39,7 +39,7 @@ Running App...
 - The application you wish to launch.
 
 ## NOTATION
-- Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal.
+- Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal, and then change the icon to the target program icon.
 
 ## DEVELOPMENT
 - A second bat AppRunnerMulti-Ba.Bat, renaming the original to AppRunnerSingle-Ba.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, and the user may wish to have multiple instances of the program running at a time, this will involve checking which ones, have windows or have become background redundant processes, but, unfortunately this will have to wait a while, as its a specific circumstance that happens, involving long sessions of work with multiple instances of the relevant program open. 
