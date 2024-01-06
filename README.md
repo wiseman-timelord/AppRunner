@@ -31,7 +31,7 @@ Running App...
 
 ## USAGE
 1. Place AppRunner-Ba in the same folder as your App you wish to run.
-2. Edit the batch file; update the "PATH TO YOUR PROGRAM" to the actual path where "App.exe" is located, and then replace all instances of "App.exe" with the name of the application you intend to launch.
+2. Edit the batch file; replace all instances of "App.exe" with the name of the application you intend to launch.
 3. Double-click on AppRunner-Ba to run the application (or use shortcut to it, see tip below for taskbar).
 
 ## REQUIREMENTS
