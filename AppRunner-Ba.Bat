@@ -15,9 +15,9 @@ if "%ERRORLEVEL%"=="0" (
     echo App.exe is running...
     echo ....Terminating App.
     echo.
-    taskkill /F /IM "App" /T
+    taskkill /F /IM "App.exe" /T
 ) else (
-    echo App.exe is closed.
+    echo App is closed.
 )
 timeout /t 1 /nobreak > NUL
 echo.
