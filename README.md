@@ -4,7 +4,7 @@
 Literally took me 15 minutes of GPT4 custom profile, not really much to test, it did it.
 
 ## DESCRIPTION
-AppRunner-Ba is a basic batch file designed to launch a pre-set application of your choice, but its not for any applications, oh no-no, this tool is intended for applications, that, is not multi-instance and will hang, so as and will block itself from running, often you will find yourself going to task manager to terminate it before you can then run it....GURRRR! it can be a frustration after 1000 times, hence, this batch is the solution! Additionally if your app is not running, then it will run it, hence, use it as the default method to run the troublesome program, replacing the original link, and you are good to go.
+AppRunner-Ba is a basic batch file designed to launch a pre-set application of your choice, but its not for any applications, oh no-no, this tool is intended for applications, that, is not multi-instance and will hang, so as and will block itself from running, often you will find yourself going to task manager to terminate it before you can then run it....GURRRR! it can be a frustration after 1000 times, hence, this batch is the solution! Additionally if your app is not running when you run AppRunner, then AppRunner it will simply run your program, hence, use it as the default method to run the troublesome program, replacing the original link, and you are good to go.
 
 ## FEATURES
 - **Easy Launch**: Directly launches "App.exe" from a predefined path.
