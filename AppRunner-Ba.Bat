@@ -9,10 +9,10 @@ echo.
 timeout /t 1 /nobreak > NUL
 echo Checking App...
 
-:: Check if App.exe is running
+:: Check if App is running
 tasklist /FI "IMAGENAME eq App.exe" 2>NUL | find /I /N "App.exe">NUL
 if "%ERRORLEVEL%"=="0" (
-    echo App.exe is running...
+    echo App is running...
     echo ....Terminating App.
     echo.
     taskkill /F /IM "App.exe" /T
@@ -24,7 +24,7 @@ echo.
 
 echo Running App...
 start "" "C:\PATH TO YOUR PROGRAM\App.exe"
-echo ...App.exe Executed.
+echo ...App Executed.
 timeout /t 1 /nobreak > NUL
 goto EOF
 
