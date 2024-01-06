@@ -11,6 +11,27 @@ AppRunner-Ba is a basic batch file designed to launch a pre-set application of y
 - **Simple Interface**: A straightforward batch file without complicated options or settings.
 - **Self-Termination**: Like a pro-international-secret-agent on cyanide!
 
+## PREVIEW
+```
+App Runner Starting...
+
+
+Checking App...
+App.exe is running...
+....Terminating App.
+
+SUCCESS: The process with PID 7016 (child process of PID 2180) has been terminated.
+
+Running App...
+...App.exe Executed.
+
+
+...Script Is Complete.
+```
+
+
+
+
 ## USAGE
 1. Place AppRunner-Ba in any desired directory.
 2. Edit the batch file; update the "PATH TO YOUR PROGRAM" to the actual path where "App.exe" is located, and then replace all instances of "App.exe" with the name of the application you intend to launch.
