@@ -29,9 +29,6 @@ Running App...
 ...Script Is Complete.
 ```
 
-
-
-
 ## USAGE
 1. Place AppRunner-Ba in any desired directory.
 2. Edit the batch file; update the "PATH TO YOUR PROGRAM" to the actual path where "App.exe" is located, and then replace all instances of "App.exe" with the name of the application you intend to launch.
@@ -43,6 +40,7 @@ Running App...
 
 ## NOTATION
 - Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal.
+- Example: I use it for the program I connect my usb dongle to the internet with, its on a usb extension, after a few meters they start going dodgy.
 
 ## DISCLAIMER
 This program is provided "as is" without warranties or support. Users are responsible for the content they, download and use, as well as, any resulting damage to, hardware or sanity.
