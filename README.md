@@ -42,7 +42,7 @@ Running App...
 - Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal.
 
 ## DEVELOPMENT
-Making a second bat AppRunnerMulti-Ba.Bat, renaming the original to AppRunnerSingle-Ba.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, but you may want to have multiple instances of them running at a time, this will involve checking which ones, have windows or have become background processes, but, unfortunately this will take a while to do, as its a specific circumstance that happens when I have had long image editing sessions in PaintShop with multiple editors open with about 50-100 images open at once in each one. 
+- A second bat AppRunnerMulti-Ba.Bat, renaming the original to AppRunnerSingle-Ba.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, and the user may wish to have multiple instances of the program running at a time, this will involve checking which ones, have windows or have become background redundant processes, but, unfortunately this will have to wait a while, as its a specific circumstance that happens, involving long sessions of work with multiple instances of the relevant program open. 
 
 ## DISCLAIMER
 This program is provided "as is" without warranties or support. Users are responsible for the content they, download and use, as well as, any resulting damage to, hardware or sanity.
