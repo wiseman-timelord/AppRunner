@@ -18,7 +18,7 @@ AppRunner-Ba is a basic batch file designed to launch a specific application, "A
 
 ## REQUIREMENTS
 - A Windows environment with batch file support.
-- The application you wish to launch must be installed on your system.
+- The application you wish to launch.
 
 ## NOTATION
 - Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal.
