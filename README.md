@@ -1,7 +1,7 @@
 # AppRunner-Ba
 
-## STATUS: Working.
-Literally took me 15 minutes of GPT4 custom profile.
+## STATUS: WORKING
+Literally took me 15 minutes of GPT4 custom profile, not really much to test, it did it.
 
 ## DESCRIPTION
 AppRunner-Ba is a basic batch file designed to launch a pre-set application of your choice, but its not for any applications, oh no-no, this tool is intended for applications, that, is not multi-instance and will hang, so as and will block itself from running, often you will find yourself going to task manager to terminate it before you can then run it....GURRRR! it can be a frustration after 1000 times, hence, this batch is the solution!
