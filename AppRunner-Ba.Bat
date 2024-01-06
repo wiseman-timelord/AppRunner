@@ -23,7 +23,7 @@ timeout /t 1 /nobreak > NUL
 echo.
 
 echo Running App...
-start "" "C:\PATH TO YOUR PROGRAM\App.exe"
+start "" ".\App.exe"
 echo ...App Executed.
 timeout /t 1 /nobreak > NUL
 goto EOF
