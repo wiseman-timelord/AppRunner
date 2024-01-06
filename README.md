@@ -40,7 +40,7 @@ Running App...
 
 ## NOTATION
 - Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner-Ba and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal.
-- Example: I use it for the program I connect my usb dongle to the internet with, its on a usb extension, after a few meters they start going dodgy.
+- Example: I use it for the program I connect my usb dongle to the internet with, its on a usb extension, these go funny after a few meters.
 
 ## DISCLAIMER
 This program is provided "as is" without warranties or support. Users are responsible for the content they, download and use, as well as, any resulting damage to, hardware or sanity.
