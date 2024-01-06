@@ -12,12 +12,12 @@ echo Checking App...
 :: Check if App is running
 tasklist /FI "IMAGENAME eq App.exe" 2>NUL | find /I /N "App.exe">NUL
 if "%ERRORLEVEL%"=="0" (
-    echo App is running...
+    echo ...App is running...
     echo ....Terminating App.
     echo.
     taskkill /F /IM "App.exe" /T
 ) else (
-    echo App is closed.
+    echo ...App is closed.
 )
 timeout /t 1 /nobreak > NUL
 echo.
