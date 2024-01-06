@@ -17,13 +17,13 @@ App Runner Starting...
 
 
 Checking App...
-App.exe is running...
-....Terminating App.
+...App is running...
+...Terminating App.
 
 SUCCESS: The process with PID 7016 (child process of PID 2180) has been terminated.
 
 Running App...
-...App.exe Executed.
+...App Executed.
 
 
 ...Script Is Complete.
