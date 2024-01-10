@@ -1,6 +1,7 @@
-:: Initiation
 @echo off
-mode 45,16
+
+:: Initiation
+mode 45,17
 cd /d "%~dp0"
 Echo.
 
@@ -24,9 +25,17 @@ timeout /t 1 /nobreak > NUL
 Echo.
 
 :: Run App
-echo Launching App...
-start "" ".\App.exe"
-echo App launched.
+echo Checking For App...
+if exist ".\App.exe" (
+    echo ...App Located...
+	start "" ".\App.exe"
+    echo ...App Executed!
+) else (
+    echo ...App Missing!
+	echo 1. Check name of App is correct.
+	echo 2. AppRunner-Ba in same folder.
+    )
+)
 Echo.
 timeout /t 1 /nobreak > NUL
 goto EOF
