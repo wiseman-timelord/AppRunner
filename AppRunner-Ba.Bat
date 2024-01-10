@@ -1,37 +1,39 @@
 :: Initiation
 @echo off
-mode 50,20
+mode 45,16
+cd /d "%~dp0"
 Echo.
 
-echo AppRunner-Ba Starting...
-echo.
-echo.
+:: Intro
+Echo AppRunner-Ba Starting...
+Echo.
 timeout /t 1 /nobreak > NUL
-echo Checking App...
 
-:: Check if App is running
+:: Check and Terminate Running App
+echo.
+echo Checking for running App...
 tasklist /FI "IMAGENAME eq App.exe" 2>NUL | find /I /N "App.exe">NUL
 if "%ERRORLEVEL%"=="0" (
-    echo ...App is running...
-    echo ....Terminating App.
-    echo.
+    echo App is currently running, terminating...
     taskkill /F /IM "App.exe" /T
+    echo App terminated.
 ) else (
-    echo ...App is closed.
+    echo App is not running.
 )
 timeout /t 1 /nobreak > NUL
-echo.
+Echo.
 
-echo Running App...
+:: Run App
+echo Launching App...
 start "" ".\App.exe"
-echo ...App Executed.
+echo App launched.
+Echo.
 timeout /t 1 /nobreak > NUL
 goto EOF
 
+:: Completion
 :EOF
 echo.
-echo.
-echo ...Script Is Complete.
-echo.
-timeout /t 2 /nobreak > NUL
+echo ...Processes Complete.
+timeout /t 5 /nobreak > NUL
 exit
