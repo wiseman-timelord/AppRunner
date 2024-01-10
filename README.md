@@ -13,20 +13,21 @@ AppRunner-Ba is a streamlined batch file launcher designed to efficiently handle
 
 ## PREVIEW
 ```
-App Runner Starting...
+
+AppRunner-Ba Starting...
 
 
-Checking App...
-...App is running...
-...Terminating App.
+Checking for running App...
+App is currently running, terminating...
+SUCCESS: The process with PID 13640 (child process of PID 17616) has been terminated.
+App terminated.
 
-SUCCESS: The process with PID 7016 (child process of PID 2180) has been terminated.
-
-Running App...
-...App Executed.
+Launching App...
+App launched.
 
 
-...Script Is Complete.
+...Processes Complete.
+
 ```
 
 ## USAGE
