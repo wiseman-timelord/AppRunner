@@ -46,5 +46,5 @@ App launched.
 - A second bat AppRunnerMulti-Ba.Bat, renaming the original to AppRunnerSingle-Ba.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, and the user may wish to have multiple instances of the program running at a time, this will involve checking which ones, have windows or have become background redundant processes, but, unfortunately this will have to wait a while, as its a specific circumstance that happens, involving long sessions of work with multiple instances of the relevant program open. 
 - Change to script dir at start, thus simplifying the setup for running an app requiring admin.
 
-## DISCLAIMER
-This program is provided "as is" without warranties or support. Users are responsible for the content they, download and use, as well as, any resulting damage to, hardware or sanity.
+### DISCLAIMER
+Read "License.Txt", its, what its there for and why its supplied with the package.
