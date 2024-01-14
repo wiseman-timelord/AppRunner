@@ -47,4 +47,4 @@ App launched.
 - Change to script dir at start, thus simplifying the setup for running an app requiring admin.
 
 ## DISCLAIMER
-The "License.Txt" covers, this and relating, stuff.
+This software is subject to the terms in License.Txt, covering usage, distribution, and modifications. For full details on your rights and obligations, refer to License.Txt.
