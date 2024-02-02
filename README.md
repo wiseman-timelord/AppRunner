@@ -1,7 +1,7 @@
 # AppRunner
 
 ## STATUS: WORKING
-Improvements carried over from FO4Runner-Ba, AppRunner's sibling project.
+Improvements carried over from FO4Runner, AppRunner's sibling project.
 
 ## DESCRIPTION
 AppRunner is a streamlined batch file launcher designed to efficiently handle applications that are prone to hanging or blocking themselves from running, especially those not supporting multi-instance operation. If an application is already running, AppRunner will terminate it before re-launching, preventing the need for manual termination via task manager. This is particularly useful for applications that leave residual processes, ensuring only one instance runs at a time. If the application is not running, AppRunner will simply launch it. Ideal for replacing the original application link, this tool is effective for both resource management and crash prevention, exemplified by applications like Fallout 4.
@@ -43,7 +43,7 @@ App launched.
 - Tip: To pin a shortcut to the batch file to your taskbar, create a shortcut of AppRunner and then edit the target box to include `cmd.exe /c` before `"DRIVE:\PATH\EXAMPLE.exe"`, then pin the shortcut to the taskbar like normal, and then change the icon to the target program icon.
 
 ## DEVELOPMENT
-- A second bat AppRunnerMulti-Ba.Bat, renaming the original to AppRunnerSingle-Ba.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, and the user may wish to have multiple instances of the program running at a time, this will involve checking which ones, have windows or have become background redundant processes, but, unfortunately this will have to wait a while, as its a specific circumstance that happens, involving long sessions of work with multiple instances of the relevant program open. 
+- A second bat AppRunnerMulti.Bat, renaming the original to AppRunnerSingle.Bat, so as to cater for processes, that, are multi-instance and leave redundant processes, and the user may wish to have multiple instances of the program running at a time, this will involve checking which ones, have windows or have become background redundant processes, but, unfortunately this will have to wait a while, as its a specific circumstance that happens, involving long sessions of work with multiple instances of the relevant program open. 
 - Change to script dir at start, thus simplifying the setup for running an app requiring admin.
 
 ## DISCLAIMER
